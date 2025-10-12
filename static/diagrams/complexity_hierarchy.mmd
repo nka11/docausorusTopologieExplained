@@ -1,0 +1,17 @@
+graph TB
+    EXPTIME["EXPTIME<br/>Temps exponentiel"]
+    PSPACE["PSPACE<br/>Espace polynomial"]
+    NP["NP<br/>Vérifiable en temps polynomial"]
+    P["P<br/>Résolvable en temps polynomial"]
+    NPC["NP-Complet<br/>SAT, TSP, Clique"]
+    
+    EXPTIME --> PSPACE
+    PSPACE --> NP
+    NP --> P
+    NP --> NPC
+    
+    style EXPTIME fill:#ffcccc
+    style PSPACE fill:#cce5ff
+    style NP fill:#ffffcc
+    style P fill:#ccffcc
+    style NPC fill:#ffccff
