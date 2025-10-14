@@ -13,8 +13,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-site.com',
-  baseUrl: '/',
+  url: process.env.GITHUB_PAGES_URL || 'https://your-site.com',
+  baseUrl: process.env.NODE_ENV === 'production' ? '/docausorusTopologieExplained/' : '/',
 
   organizationName: 'manus-ai',
   projectName: 'advanced-mathematics-course',
