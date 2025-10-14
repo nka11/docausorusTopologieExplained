@@ -1,25 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+professor_manus:
+  name: Professeur Manus
+  title: Professeur de Mathématiques Avancées & Physique Théorique
+  url: https://manus-ai.com
+  image_url: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face
   page: true
-  socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+  description: "Expert en topologie algébrique, géométrie différentielle, et théorie des cordes. Passionné par l'enseignement des mathématiques les plus avancées."
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+dr_geometrie:
+  name: Dr. Géométrie
+  title: Spécialiste en Géométrie de Lie et Variétés
+  url: https://manus-ai.com
+  image_url: https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face
+  page: true
+  description: "Chercheur en géométrie différentielle et applications en physique théorique. Focus sur les groupes de Lie et les variétés de Calabi-Yau."
+
+maitre_complexite:
+  name: Maître Complexité
+  title: Expert en Théorie de la Complexité Algorithmique
+  url: https://manus-ai.com
+  image_url: https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face
+  page: true
+  description: "Spécialiste des problèmes P vs NP, algorithmes d'approximation et applications en machine learning et data science."

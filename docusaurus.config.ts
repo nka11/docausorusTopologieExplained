@@ -1,6 +1,8 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import math from 'remark-math';
+import katex from 'rehype-katex';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -34,13 +36,41 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl: undefined,
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
+          feedOptions: {
+            type: 'all',
+            title: 'Cours Avancé - Blog',
+            description: 'Articles et exemples du cours de mathématiques avancées',
+            copyright: `Copyright © ${new Date().getFullYear()} Manus AI.`,
+            language: 'fr',
+          },
+        },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        docs: {
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
       } satisfies Preset.Options,
     ],
   ],
+
+
+  markdown: {
+    mermaid: true,
+  },
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
+      type: 'text/css',
+    },
+  ],
+
 
   themeConfig: {
     // Replace with your project's social card
@@ -57,19 +87,34 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'defaultSidebar',
           position: 'left',
-          label: 'Cours Théorique',
+          label: '📚 Cours',
+        },
+        {
+          to: '/blog',
+          label: '📝 Blog',
+          position: 'left',
         },
         {
           to: '/docs/dictionary/mathematical_concepts_dictionary',
-          label: 'Dictionnaire',
+          label: '📖 Dictionnaire',
           position: 'left',
         },
         {
-          to: '/docs/notebooks/01_topologie_varietes',
-          label: 'Notebooks',
+          type: 'dropdown',
+          label: '🔬 Ressources',
           position: 'left',
+          items: [
+            {
+              to: '/docs/notebooks/01_topologie_varietes',
+              label: '📓 Notebooks Jupyter',
+            },
+            {
+              to: '/docs/applications/01_applications_synthesis',
+              label: '🚀 Applications',
+            },
+          ],
         },
       ],
     },

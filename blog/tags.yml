@@ -17,3 +17,94 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+# Tags pour le cours de mathématiques avancées
+topologie:
+  label: Topologie
+  permalink: /topologie
+  description: Articles sur la topologie
+
+data-science:
+  label: Data Science
+  permalink: /data-science
+  description: Articles sur la science des données
+
+visualisation:
+  label: Visualisation
+  permalink: /visualisation
+  description: Articles sur la visualisation de données
+
+TDA:
+  label: TDA
+  permalink: /tda
+  description: Analyse Topologique des Données
+
+complexité:
+  label: Complexité
+  permalink: /complexite
+  description: Articles sur la théorie de la complexité
+
+algorithmes:
+  label: Algorithmes
+  permalink: /algorithmes
+  description: Articles sur les algorithmes
+
+'P-vs-NP':
+  label: P vs NP
+  permalink: /p-vs-np
+  description: Le problème P vs NP
+
+'théorie-computationnelle':
+  label: Théorie Computationnelle
+  permalink: /theorie-computationnelle
+  description: Articles sur la théorie computationnelle
+
+'manifold-learning':
+  label: Manifold Learning
+  permalink: /manifold-learning
+  description: Articles sur l'apprentissage de variétés
+
+embeddings:
+  label: Embeddings
+  permalink: /embeddings
+  description: Articles sur les embeddings
+
+'réduction-dimension':
+  label: Réduction de Dimension
+  permalink: /reduction-dimension
+  description: Articles sur la réduction de dimension
+
+'machine-learning':
+  label: Machine Learning
+  permalink: /machine-learning
+  description: Articles sur l'apprentissage automatique
+
+'théorie-cordes':
+  label: Théorie des Cordes
+  permalink: /theorie-cordes
+  description: Articles sur la théorie des cordes
+
+'physique-théorique':
+  label: Physique Théorique
+  permalink: /physique-theorique
+  description: Articles sur la physique théorique
+
+géométrie:
+  label: Géométrie
+  permalink: /geometrie
+  description: Articles sur la géométrie
+
+mathématiques:
+  label: Mathématiques
+  permalink: /mathematiques
+  description: Articles sur les mathématiques
+
+groupes:
+  label: Groupes
+  permalink: /groupes
+  description: Articles sur la théorie des groupes
+
+symétries:
+  label: Symétries
+  permalink: /symetries
+  description: Articles sur les symétries
