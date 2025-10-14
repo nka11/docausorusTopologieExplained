@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/theory/01_topologie_generale">
+            to="/docs/theory/topologie_generale">
             Commencer le Cours 📚
           </Link>
           <Link
@@ -67,19 +67,19 @@ function CourseOverview() {
             title="🧮 Mathématiques Pures"
             description="Topologie, géométrie différentielle, groupes de Lie, algèbres de Lie"
             icon="🧮"
-            to="/docs/theory/01_topologie_generale"
+            to="/docs/theory/topologie_generale"
           />
           <FeatureCard
             title="💻 Théorie de la Complexité"
             description="P vs NP, NP-complétude, algorithmes d'approximation, heuristiques"
             icon="💻"
-            to="/docs/theory/11_complexite_fondements"
+            to="/docs/theory/complexite_fondements"
           />
           <FeatureCard
             title="🌌 Physique Théorique"
             description="Relativité générale, théorie des cordes, variétés de Calabi-Yau"
             icon="🌌"
-            to="/docs/theory/17_intro_cordes"
+            to="/docs/theory/intro_cordes"
           />
         </div>
         <div className="row">
@@ -87,7 +87,7 @@ function CourseOverview() {
             title="🔬 Applications Modernes"
             description="TDA, manifold learning, word embeddings, graph neural networks"
             icon="🔬"
-            to="/docs/theory/20_manifold_learning"
+            to="/docs/theory/manifold_learning"
           />
           <FeatureCard
             title="📖 Dictionnaire Mathématique"
@@ -99,7 +99,7 @@ function CourseOverview() {
             title="📓 Notebooks Interactifs"
             description="Jupyter notebooks avec exemples pratiques et visualisations"
             icon="📓"
-            to="/docs/notebooks/01_topologie_varietes"
+            to="/docs/notebooks/topologie_varietes"
           />
         </div>
       </div>
