@@ -10,7 +10,7 @@ yarn
 
 ### Git Hooks Setup (Optional but Recommended)
 
-This project includes a pre-commit hook that checks for broken links before allowing commits. To install the hook:
+This project includes a pre-commit hook that builds the site before allowing commits. To install the hook:
 
 ```bash
 ./install-hooks.sh
@@ -18,11 +18,7 @@ This project includes a pre-commit hook that checks for broken links before allo
 
 The hook will:
 - Automatically build your Docusaurus site before each commit
-- Download the lychee link checker binary (on first run, no package manager needed)
-- Check for broken internal and external links
-- Prevent commits if broken links are detected
-
-**Note:** The lychee binary is downloaded automatically from GitHub releases and stored in `.git/hooks/bin/`. No additional package managers are required.
+- Prevent commits if the build fails
 
 To skip the hook for a specific commit:
 ```bash
