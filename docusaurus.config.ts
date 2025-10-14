@@ -41,7 +41,7 @@ const config: Config = {
         blog: {
           showReadingTime: true,
           readingTime: ({content, frontMatter, defaultReadingTime}) =>
-            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
+            defaultReadingTime({content, locale: 'fr', options: {wordsPerMinute: 300}}),
           feedOptions: {
             type: 'all',
             title: 'Cours Avancé - Blog',
