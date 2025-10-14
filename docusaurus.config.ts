@@ -35,6 +35,8 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: undefined,
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -50,10 +52,6 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-        },
-        docs: {
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
         },
       } satisfies Preset.Options,
     ],
