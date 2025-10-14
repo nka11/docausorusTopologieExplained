@@ -36,6 +36,12 @@ jobs:
         env:
           NODE_ENV: production
 
+      - name: Check for broken links
+        uses: lycheeverse/lychee-action@v2.6.1
+        with:
+          args: --verbose --no-progress './build/**/*.html'
+          fail: true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

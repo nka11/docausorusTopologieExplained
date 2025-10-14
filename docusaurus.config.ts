@@ -16,12 +16,12 @@ const config: Config = {
   },
 
   url: process.env.GITHUB_PAGES_URL || 'https://your-site.com',
-  baseUrl: process.env.NODE_ENV === 'production' ? '/docausorusTopologieExplained/' : '/',
+  baseUrl: '/docausorusTopologieExplained/',
 
   organizationName: 'manus-ai',
   projectName: 'advanced-mathematics-course',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
 
   i18n: {
     defaultLocale: 'fr',
@@ -85,7 +85,7 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'defaultSidebar',
+          sidebarId: 'tutorialSidebar',
           position: 'left',
           label: '📚 Cours',
         },
@@ -105,11 +105,11 @@ const config: Config = {
           position: 'left',
           items: [
             {
-              to: '/docs/notebooks/01_topologie_varietes',
+              to: '/docs/notebooks/topologie_varietes',
               label: '📓 Notebooks Jupyter',
             },
             {
-              to: '/docs/applications/01_applications_synthesis',
+              to: '/docs/applications/applications_synthesis',
               label: '🚀 Applications',
             },
           ],
@@ -124,15 +124,15 @@ const config: Config = {
           items: [
             {
               label: 'Topologie',
-              to: '/docs/theory/01_topologie_generale',
+              to: '/docs/theory/topologie_generale',
             },
             {
               label: 'Groupes de Lie',
-              to: '/docs/theory/08_groupes_lie',
+              to: '/docs/theory/groupes_lie',
             },
             {
               label: 'P vs NP',
-              to: '/docs/theory/12_p_vs_np',
+              to: '/docs/theory/p_vs_np',
             },
           ],
         },
@@ -141,15 +141,15 @@ const config: Config = {
           items: [
             {
               label: 'Manifold Learning',
-              to: '/docs/theory/20_manifold_learning',
+              to: '/docs/theory/manifold_learning',
             },
             {
               label: 'Word Embeddings',
-              to: '/docs/theory/21_word_embeddings',
+              to: '/docs/theory/word_embeddings',
             },
             {
               label: 'TDA',
-              to: '/docs/theory/15_topological_data_analysis',
+              to: '/docs/theory/topological_data_analysis',
             },
           ],
         },
@@ -162,7 +162,7 @@ const config: Config = {
             },
             {
               label: 'Notebooks',
-              to: '/docs/notebooks/01_topologie_varietes',
+              to: '/docs/notebooks/topologie_varietes',
             },
           ],
         },
