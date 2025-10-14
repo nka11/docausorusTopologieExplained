@@ -16,12 +16,12 @@ const config: Config = {
   },
 
   url: process.env.GITHUB_PAGES_URL || 'https://your-site.com',
-  baseUrl: process.env.NODE_ENV === 'production' ? '/docausorusTopologieExplained/' : '/',
+  baseUrl: '/docausorusTopologieExplained/',
 
   organizationName: 'manus-ai',
   projectName: 'advanced-mathematics-course',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
 
   i18n: {
     defaultLocale: 'fr',

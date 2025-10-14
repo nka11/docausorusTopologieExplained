@@ -8,6 +8,23 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 yarn
 ```
 
+### Git Hooks Setup (Optional but Recommended)
+
+This project includes a pre-commit hook that builds the site before allowing commits. To install the hook:
+
+```bash
+./install-hooks.sh
+```
+
+The hook will:
+- Automatically build your Docusaurus site before each commit
+- Prevent commits if the build fails
+
+To skip the hook for a specific commit:
+```bash
+git commit --no-verify
+```
+
 ## Local Development
 
 ```bash

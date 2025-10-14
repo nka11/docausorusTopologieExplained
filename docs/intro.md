@@ -40,4 +40,4 @@ Bienvenue dans ce cours complet couvrant la géométrie de Lie, les groupes de K
 
 ## Navigation
 
-Utilisez le menu latéral pour explorer les modules. Commencez par la [Topologie Générale](theory/01_topologie_generale) ou consultez les [Notebooks](notebooks/01_topologie_varietes).
+Utilisez le menu latéral pour explorer les modules. Commencez par la [Topologie Générale](theory/topologie_generale) ou consultez les [Notebooks](notebooks/topologie_varietes).
