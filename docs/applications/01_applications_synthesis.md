@@ -20,7 +20,7 @@ L'une des applications les plus fructueuses de la géométrie et de la topologie
 
 > **Application en Médecine** : La visualisation de données d'expression génique avec UMAP peut révéler des clusters de cellules correspondant à différents types de cancer, aidant au diagnostic.
 
-Pour une exploration pratique, consultez le [Notebook sur la Géométrie Riemannienne](/docs/notebooks/geometrie_riemannienne).
+Pour une exploration pratique, consultez le [Notebook sur les Embeddings et le Manifold Learning](https://github.com/Axle-Bucamp/docausorusTopologieExplained/tree/main/docs/notebooks/06_embeddings_ml.ipynb).
 
 ### Geometric Deep Learning
 
@@ -46,7 +46,7 @@ Pour une exploration pratique, consultez le [Notebook sur la Géométrie Riemann
 
 > **Application en Biologie** : L'analyse de la structure 3D des protéines avec TDA peut révéler des cavités (vides) qui sont des sites de liaison potentiels pour des médicaments.
 
-Consultez le [Notebook sur la Topologie et les Variétés](/docs/notebooks/topologie_varietes) pour un exemple concret.
+Consultez le [Notebook sur le TDA et l'Homologie Persistante](https://github.com/Axle-Bucamp/docausorusTopologieExplained/tree/main/docs/notebooks/05_tda_homologie.ipynb) pour un exemple concret.
 
 ## 4. Informatique Théorique et Optimisation
 
@@ -58,7 +58,7 @@ Consultez le [Notebook sur la Topologie et les Variétés](/docs/notebooks/topol
 
 > **Application en Logistique** : L'optimisation des tournées de livraison est une variante du TSP. Des heuristiques avancées sont utilisées quotidiennement par des entreprises comme UPS et FedEx pour économiser des millions de dollars.
 
-Le [Notebook sur les Groupes de Lie et Algèbres](/docs/notebooks/groupes_lie_algebres) illustre ces concepts.
+Le [Notebook sur P vs NP et la Complexité](https://github.com/Axle-Bucamp/docausorusTopologieExplained/tree/main/docs/notebooks/04_p_vs_np_complexite.ipynb) illustre ces concepts.
 
 ## 5. Physique Théorique
 
